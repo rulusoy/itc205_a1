@@ -27,7 +27,7 @@ public class Library implements Serializable {
 	private static Library SeLf;
 	private int bookId;  //'bOoK_Id' changed to 'bookId
 	private int mEmBeR_Id;
-	private int lOaN_Id;
+	private Date loanDate;	//changed 'lOaN_DaTe' to 'loanDate'
 	private Date lOaN_DaTe;
 	
 	private Map<Integer, Book> CaTaLoG;
