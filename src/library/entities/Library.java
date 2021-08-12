@@ -25,7 +25,7 @@ public class Library implements Serializable {
 	private static final double damageFee = 2.0;
 	
 	private static Library SeLf;
-	private int bOoK_Id;
+	private int bookId;  //'bOoK_Id' changed to 'bookId
 	private int mEmBeR_Id;
 	private int lOaN_Id;
 	private Date lOaN_DaTe;
